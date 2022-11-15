@@ -86,23 +86,3 @@ var finances = [
 ['Jan-2017', 138230],
 ['Feb-2017', 671099]
 ];
-
-console.log('Financial Analysis\n-------------------------------');
-
-//defining total number of months
-
-var months = 86;
-
-console.log(`Total Months: ${months}`);
-
-// calculating the net total amount of profit/losses
-
-var total = 0;
-
-for (var i = 0 ; i < finances.length ; i++) {
-    var amount = finances[i][1];
-
-    total += amount;
-}
-
-console.log(`Total: $` + total);

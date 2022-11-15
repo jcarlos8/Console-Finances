@@ -6,7 +6,7 @@ This Javascript code calculates the total number of months, net total amount, av
 
 ## Usage
 
-Access via url: 
+Access via url: https://jcarlos8.github.io/Console-Finances/
 
 ## License
 
